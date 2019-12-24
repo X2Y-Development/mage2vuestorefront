@@ -7,6 +7,9 @@ export MAGENTO_CONSUMER_SECRET=pw1gj6218ck7ltnksnaiifk97cmtwj9j
 export MAGENTO_ACCESS_TOKEN=ekb7c2mc61lrrkjvoiy2m6tz4sy3wb4r
 export MAGENTO_ACCESS_TOKEN_SECRET=uvvdawxhggfjp0j1lzh37dcf490kbddh
 export SEO_USE_URL_DISPATCHER=1
+export DATABASE_URL=elasticsearch:9200
+export REDIS_HOST=redis
+export INDEX_NAME=vue_storefront_catalog
 
 echo 'Default store - in our case United States / en'
 export MAGENTO_URL=https://explorebeautiful.com/rest
